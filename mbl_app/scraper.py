@@ -3,10 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import os 
 
-
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-
-
 
 BASE_URL = "https://bankofmaharashtra.in"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
