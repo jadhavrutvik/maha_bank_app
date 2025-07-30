@@ -22,5 +22,4 @@ urlpatterns = [
     path("generate_embeddings_api/",views.generate_embeddings_api,name="generate_embeddings_api"),
     path("answer_question_api/",views.answer_question_api,name="answer_question_api"),
 
-
 ]
