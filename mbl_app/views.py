@@ -8,7 +8,7 @@ from dotenv import load_dotenv,find_dotenv
 
 load_dotenv(find_dotenv())
 
-genai.configure(api_key="AIzaSyDJERYm56kNTa-lW6_ccn4XPiKaeB_DIfw")
+genai.configure(api_key="") #add your gemini api key here
 
 
 @api_view(["GET"])
