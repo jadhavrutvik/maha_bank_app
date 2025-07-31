@@ -36,7 +36,7 @@ Create a `.env` file in the project root(optional):
 ```ini
 GOOGLE_API_KEY=your_gemini_api_key
 ```
-Alternatively, update the hardcoded key inside `views.py` I have stored your_gemini_api_key in views.py to easy access.
+Alternatively, update the hardcoded key inside `views.py` I have stored gemini_api_key in views.py to easy access, please add your api key in views.py.
 
 #### 5. Run the Django Server
 ```bash
