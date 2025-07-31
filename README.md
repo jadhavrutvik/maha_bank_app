@@ -34,7 +34,7 @@ pip install -r requirements.txt
 #### 4. Set Environment Variables
 Create a `.env` file in the your app(mbl_app):
 ```ini
-GOOGLE_API_KEY=your_gemini_api_key
+gemini_api_key=your_gemini_api_key
 ```
 Add your gemini api key inside .env file(e.g gemini_api_key="your_api_key")
 
