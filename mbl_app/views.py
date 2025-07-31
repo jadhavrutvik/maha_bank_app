@@ -5,11 +5,12 @@ from rest_framework.response import Response
 from mbl_app.scraper import *
 from mbl_app.embeddings import *
 from dotenv import load_dotenv,find_dotenv
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-load_dotenv(find_dotenv())
+load_dotenv(find_dotenv(os.path.join(APP_DIR,".env")))
 
-genai.configure(api_key="AIzaSyDJERYm56kNTa-lW6_ccn4XPiKaeB_DIfw")
 
+genai.configure(api_key=os.getenv("gemini_api_key"))
 
 @api_view(["GET"])
 def loan_scraper_api(request):
