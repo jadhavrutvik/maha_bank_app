@@ -32,11 +32,11 @@ pip install -r requirements.txt
 ```
 
 #### 4. Set Environment Variables
-Create a `.env` file in the project root(optional):
+Create a `.env` file in the your app(mbl_app):
 ```ini
 GOOGLE_API_KEY=your_gemini_api_key
 ```
-Alternatively, update the hardcoded key inside `views.py` I have stored gemini_api_key in views.py to easy access, please add your api key in views.py.
+Add your gemini api key inside .env file(e.g gemini_api_key="your_api_key")
 
 #### 5. Run the Django Server
 ```bash
